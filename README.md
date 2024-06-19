@@ -1,15 +1,15 @@
 # CoinMarketCap Symbol Downloader
 
-This JavaScript code allows you to download a .txt file containing a list of cryptocurrency symbols from CoinMarketCap, concatenated with "USDT". The code includes options to configure the number of symbols to download and to exclude stablecoins.
+This JavaScript code, located in the `coinmarketcap-tradingview-watchlist.js` file within this repository, allows you to download a .txt file containing a list of cryptocurrency symbols from CoinMarketCap, concatenated with "USDT". The code includes options to configure the number of symbols to download and to exclude stablecoins.
 
 ## How to Run the Code
 
 1. Navigate to [https://coinmarketcap.com/all/views/all/](https://coinmarketcap.com/all/views/all/) in your web browser.
 2. Open the browser console (press F12 or Ctrl+Shift+I).
-3. Paste the JavaScript code into the console.
+3. **Paste the code from the `coinmarketcap-tradingview-watchlist.js` file into the console.**
 4. Press Enter.
 5. A prompt will appear asking you to enter the number of symbols to download. You can enter a number or press Enter to use the default value of 100.
-6. A file named `symbols_cmc{date}.txt` will be downloaded containing a list of cryptocurrency symbols concatenated with "USDT".
+6. A file named `symbols_cmc({date}).txt` will be downloaded containing a list of cryptocurrency symbols concatenated with "USDT".
 
 ## Features
 
